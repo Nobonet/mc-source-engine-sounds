@@ -60,6 +60,13 @@
 			"item/bow/shoot"
 		]
 	},
+
+	"ui.button.click": {
+		"replace": true,
+		"sounds": [
+			"ui/menuclick"
+		]
+	},
 	
 	"entity.player.swim": {
 		"subtitle": "subtitles.entity.generic.swim",
