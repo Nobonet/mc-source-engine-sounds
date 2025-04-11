@@ -56,16 +56,12 @@
 	"entity.arrow.shoot": {
 		"subtitle": "subtitles.entity.arrow.shoot",
 		"replace": true,
-		"sounds": [
-			"item/bow/shoot"
-		]
+		"sounds": [ "item/bow/shoot" ]
 	},
 
 	"ui.button.click": {
 		"replace": true,
-		"sounds": [
-			"ui/menuclick"
-		]
+		"sounds": [ "ui/menuclick" ]
 	},
 	
 	"entity.player.swim": {
