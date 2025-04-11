@@ -61,7 +61,7 @@
 	    ]
 	},
 
-	"entity.player.big_fall": {
+	"entity.player.small_fall": {
 		"subtitle": "subtitles.entity.generic.big_fall",
 		"sounds": [
 			"damage/fallsmall",
@@ -93,5 +93,5 @@
 			"liquid/swim7",
 			"liquid/swim8"
 		]
-  }
+	}
 }
