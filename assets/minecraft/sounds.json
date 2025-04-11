@@ -1,0 +1,78 @@
+{
+	"block.metal.step": {
+		"subtitle": "subtitles.block.generic.footsteps",
+		"replace": true,
+		"sounds": [
+			"step/metal1",
+			"step/metal2",
+			"step/metal3",
+			"step/metal4"
+		]
+	},
+	
+	"block.cherry_wood.step": {
+		"subtitle": "subtitles.block.generic.footsteps",
+		"replace": true,
+		"sounds": [
+			"step/wood1",
+			"step/wood2",
+			"step/wood3",
+			"step/wood4"
+		]
+	},
+	
+	"block.nether_wood.step": {
+		"subtitle": "subtitles.block.generic.footsteps",
+		"replace": true,
+		"sounds": [
+			"step/wood1",
+			"step/wood2",
+			"step/wood3",
+			"step/wood4"
+		]
+	},
+	
+	"block.bamboo_wood.step": {
+		"subtitle": "subtitles.block.generic.footsteps",
+		"replace": true,
+		"sounds": [
+			"step/wood1",
+			"step/wood2",
+			"step/wood3",
+			"step/wood4"
+		]
+	},
+	
+	"entity.player.death": {
+		"subtitle": "subtitles.entity.player.death",
+		"replace": true,
+		"sounds": [
+			"damage/pl_pain1",
+			"damage/pl_pain2",
+			"damage/pl_pain3"
+		]
+	},
+	
+	"entity.arrow.shoot": {
+		"subtitle": "subtitles.entity.arrow.shoot",
+		"replace": true,
+		"sounds": [
+			"item/bow/shoot"
+		]
+	},
+	
+	"entity.player.swim": {
+		"subtitle": "subtitles.entity.generic.swim",
+		"replace": true,
+		"sounds": [
+			"liquid/swim1",
+			"liquid/swim2",
+			"liquid/swim3",
+			"liquid/swim4",
+			"liquid/swim5",
+			"liquid/swim6",
+			"liquid/swim7",
+			"liquid/swim8"
+		]
+  }
+}
