@@ -1,15 +1,48 @@
 {
+	"block.iron_door.close": {
+		"subtitle": "subtitles.block.door.toggle",
+		"replace": true,
+		"sounds": [
+			{
+				"name": "block/iron_door/close1",
+				"volume": 0.9
+			}
+		]
+	},
+	"block.iron_door.open": {
+		"subtitle": "subtitles.block.door.toggle",
+		"replace": true,
+		"sounds": [
+			{
+				"name": "block/iron_door/open1",
+				"volume": 0.9
+			}
+		]
+	},
+
 	"block.metal.step": {
 		"subtitle": "subtitles.block.generic.footsteps",
 		"replace": true,
 		"sounds": [
-			"step/metal1",
-			"step/metal2",
-			"step/metal3",
-			"step/metal4"
+			{
+				"name": "step/metal1",
+				"pitch": 0.6666666666
+			},
+			{
+				"name": "step/metal2",
+				"pitch": 0.6666666666
+			},
+			{
+				"name": "step/metal3",
+				"pitch": 0.6666666666
+			},
+			{
+				"name": "step/metal4",
+				"pitch": 0.6666666666
+			}
 		]
 	},
-	
+
 	"block.cherry_wood.step": {
 		"subtitle": "subtitles.block.generic.footsteps",
 		"replace": true,
@@ -20,7 +53,6 @@
 			"step/wood4"
 		]
 	},
-	
 	"block.nether_wood.step": {
 		"subtitle": "subtitles.block.generic.footsteps",
 		"replace": true,
@@ -31,7 +63,35 @@
 			"step/wood4"
 		]
 	},
-	
+	"block.wood.step": {
+		"subtitle": "subtitles.block.generic.footsteps",
+		"replace": true,
+		"sounds": [
+			"step/wood1",
+			"step/wood2",
+			"step/wood3",
+			"step/wood4"
+		]
+	},
+	"block.wood.fall": {
+		"replace": true,
+		"sounds": [
+			"step/wood1",
+			"step/wood2",
+			"step/wood3",
+			"step/wood4"
+		]
+	},
+	"block.wood.hit": {
+		"subtitle": "subtitles.block.generic.hit",
+		"replace": true,
+		"sounds": [
+			"step/wood1",
+			"step/wood2",
+			"step/wood3",
+			"step/wood4"
+		]
+	},
 	"block.bamboo_wood.step": {
 		"subtitle": "subtitles.block.generic.footsteps",
 		"replace": true,
@@ -42,7 +102,129 @@
 			"step/wood4"
 		]
 	},
-	
+
+	"block.wooden_door.close": {
+		"subtitle": "subtitles.block.door.toggle",
+		"replace": true,
+		"sounds": [
+			{
+				"name": "block/wooden_door/close1",
+				"volume": 0.9
+			},
+			{
+				"name": "block/wooden_door/close2",
+				"volume": 0.9
+			}
+		]
+	},
+
+	"block.stone.fall": {
+		"replace": true,
+		"sounds": [
+			"step/stone1",
+			"step/stone2",
+			"step/stone3",
+			"step/stone4"
+		]
+	},
+	"block.stone.hit": {
+		"subtitle": "subtitles.block.generic.hit",
+		"replace": true,
+		"sounds": [
+			"step/stone1",
+			"step/stone2",
+			"step/stone3",
+			"step/stone4"
+		]
+	},
+	"block.stone.place": {
+		"subtitle": "subtitles.block.generic.place",
+		"replace": true,
+		"sounds": [
+			"dig/stone1",
+			"dig/stone2",
+			"dig/stone3",
+			"dig/stone4"
+		]
+	},
+	"block.stone.step": {
+		"subtitle": "subtitles.block.generic.footsteps",
+		"replace": true,
+		"sounds": [
+			"step/stone1",
+			"step/stone2",
+			"step/stone3",
+			"step/stone4"
+		]
+	},
+
+	"block.grass.step": {
+		"subtitle": "subtitles.block.generic.footsteps",
+		"replace": true,
+		"sounds": [
+			"step/grass1",
+			"step/grass2",
+			"step/grass3",
+			"step/grass4"
+		]
+	},
+
+	"block.sand.step": {
+		"subtitle": "subtitles.block.generic.footsteps",
+		"replace": true,
+		"sounds": [
+			"step/sand1",
+			"step/sand2",
+			"step/sand3",
+			"step/sand4"
+		]
+	},
+
+	"block.mud.step": {
+		"subtitle": "subtitles.block.generic.footsteps",
+		"replace": true,
+		"sounds": [
+			{
+				"name": "block/mud/step1",
+				"volume": 0.6
+			},
+			{
+				"name": "block/mud/step2",
+				"volume": 0.6
+			},
+			{
+				"name": "block/mud/step3",
+				"volume": 0.6
+			},
+			{
+				"name": "block/mud/step4",
+				"volume": 0.6
+			}
+		]
+	},
+
+	"block.ladder.hit": {
+		"subtitle": "subtitles.block.generic.hit",
+		"replace": true,
+		"sounds": [
+			"step/wood1",
+			"step/wood2",
+			"step/wood3",
+			"step/wood4"
+		]
+	},
+
+	"block.fire.ambient": {
+		"subtitle": "subtitles.block.fire.ambient",
+		"replace": true,
+		"sounds": [
+			{"name": "fire/fire", "volume": 0.5},
+			{"name": "fire/fire2", "volume": 0.5}
+		]
+	},
+
+
+
 	"entity.player.death": {
 		"subtitle": "subtitles.entity.player.death",
 		"replace": true,
@@ -52,46 +234,77 @@
 			"damage/pl_pain3"
 		]
 	},
-
+	"entity.player.hurt": {
+		"subtitle": "subtitles.entity.player.hurt",
+		"replace": true,
+		"sounds": [
+			"damage/flesh_impact_bullet1",
+			"damage/flesh_impact_bullet2",
+			"damage/flesh_impact_bullet3",
+			"damage/flesh_impact_bullet4",
+			"damage/flesh_impact_bullet5"
+		]
+	},
 	"entity.player.big_fall": {
 		"subtitle": "subtitles.entity.generic.small_fall",
 		"sounds": [
 			"damage/fallsmall",
 			"damage/fallbig"
-	    ]
+		]
 	},
-
 	"entity.player.small_fall": {
 		"subtitle": "subtitles.entity.generic.big_fall",
 		"sounds": [
 			"damage/fallsmall",
 			"damage/fallbig"
-	    ]
+		]
 	},
-	
-	"entity.arrow.shoot": {
-		"subtitle": "subtitles.entity.arrow.shoot",
-		"replace": true,
-		"sounds": [ "item/bow/shoot" ]
-	},
-
-	"ui.button.click": {
-		"replace": true,
-		"sounds": [ "ui/menuclick" ]
-	},
-	
 	"entity.player.swim": {
 		"subtitle": "subtitles.entity.generic.swim",
 		"replace": true,
 		"sounds": [
-			"liquid/swim1",
-			"liquid/swim2",
-			"liquid/swim3",
-			"liquid/swim4",
-			"liquid/swim5",
-			"liquid/swim6",
-			"liquid/swim7",
-			"liquid/swim8"
+			"liquid/swim1", "liquid/swim2",
+			"liquid/swim3", "liquid/swim4",
+			"liquid/swim5", "liquid/swim6",
+			"liquid/swim7", "liquid/swim8"
+		]
+	},
+
+	"entity.arrow.shoot": {
+		"subtitle": "subtitles.entity.arrow.shoot",
+		"replace": true,
+		"sounds": [
+			{
+				"name": "item/bow/shoot",
+				"volume": 0.45
+			}
+		]
+	},
+	"entity.arrow.hit": {
+		"subtitle": "subtitles.entity.arrow.hit",
+		"replace": true,
+		"sounds": [
+			{
+				"name": "random/bowhit1",
+				"volume": 0.375
+			},
+			{
+				"name": "random/bowhit2",
+				"volume": 0.375
+			},
+			{
+				"name": "random/bowhit3",
+				"volume": 0.375
+			}
+		]
+	},
+
+
+
+	"ui.button.click": {
+		"replace": true,
+		"sounds": [
+			{"name": "ui/menuclick", "volume": 0.8}
 		]
 	}
 }
